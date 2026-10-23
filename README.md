@@ -7,7 +7,7 @@ Public app: https://lucasli1337unknown.github.io/StreamSide/
 ## Included
 
 - Local canvas camera processing, manual looks, brightness/contrast/zoom, mirror, auto exposure suggestions, scene cards, lower thirds, particle effects and goal overlays.
-- Optional on-device MediaPipe gesture recognition (palm/confetti, victory/hearts, thumb-up/neon) and face landmarks for framing plus tracked glasses, crowns and cheek sparkles. Inference runs in workers.
+- Optional on-device MediaPipe gesture recognition (palm/confetti, victory/hearts, thumb-up/neon) and face landmarks for framing plus tracked glasses, crowns and cheek sparkles. Inference runs in workers, with a throttled main-thread compatibility fallback.
 - Mic level meter, local canvas recording with optional microphone, snapshots, and a clean output window for OBS Window Capture.
 - Curated random challenge/topic/title/object generators, decision spinner, number and dice tools, saved ideas.
 - Browser microphone speech recognition; on-device Translator API when available, or explicit opt-in MyMemory translation. TXT/SRT/JSON transcript exports, JSON imports and URL-encoded shareable transcript snapshots.
